@@ -9,6 +9,6 @@ def is_valid_ip(ip_address):
         return False
 
 def test_ip_validator():
-    assert is_valid_ip("192.168.1.1") == True, "Valid IP failed"
+    assert is_valid_ip("192.168.2.1") == True, "Valid IP failed"
     assert is_valid_ip("256.1.2.3") == False, "Invalid IP (out of range) failed"
     assert is_valid_ip("1.2.3") == False, "Invalid IP (wrong format) failed"
