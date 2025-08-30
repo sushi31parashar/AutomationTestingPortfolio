@@ -8,7 +8,10 @@ def is_valid_ip(ip_address):
     except ValueError:
         return False
 
+<<<<<<< HEAD
 # Manual test
+=======
+>>>>>>> 9574ec7 (Windows: IP validator and tests)
 if __name__ == "__main__":
     print(is_valid_ip("192.168.1.1"))  # True
     print(is_valid_ip("256.1.2.3"))    # False
